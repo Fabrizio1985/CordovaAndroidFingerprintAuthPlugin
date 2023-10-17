@@ -1,0 +1,58 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>CordovaAndroidFingerprintAuthPlugin</groupId>
+	<artifactId>cordova-plugin-android-fingerprint-auth</artifactId>
+	<version>0.0.0</version>
+
+	<repositories>
+		<repository>
+			<id>my-repo</id>
+			<url>http://fabriziotiracorrendo.netsons.org/maven/</url>
+		</repository>
+	</repositories>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
+		<!-- Versioni dipendenze -->
+		<maven.compiler.source>1.7</maven.compiler.source>
+		<maven.compiler.target>1.7</maven.compiler.target>
+	</properties>
+
+	<dependencies>
+
+		<dependency>
+			<groupId>it.fabrizio</groupId>
+			<artifactId>cordova-android-source</artifactId>
+			<version>[1.0.0,)</version>
+			<scope>provided</scope>
+		</dependency>
+		
+		<dependency>
+			<groupId>com.github.tony19</groupId>
+			<artifactId>logback-android-core</artifactId>
+			<version>1.1.1-4</version>
+			<scope>provided</scope>
+		</dependency>
+		
+		<dependency>
+			<groupId>com.github.tony19</groupId>
+			<artifactId>logback-android-classic</artifactId>
+			<version>1.1.1-4</version>
+			<scope>provided</scope>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+			<version>1.7.6</version>
+			<scope>provided</scope>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<sourceDirectory>src</sourceDirectory>
+	</build>
+</project>
