@@ -26,7 +26,7 @@
 		<dependency>
 			<groupId>it.fabrizio</groupId>
 			<artifactId>cordova-android-source</artifactId>
-			<version>[1.0.0,)</version>
+			<version>[10.0.0,)</version>
 			<scope>provided</scope>
 		</dependency>
 		

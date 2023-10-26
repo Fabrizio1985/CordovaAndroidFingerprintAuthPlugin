@@ -50,3 +50,7 @@ crashlytics-build.properties
 #Java
 /target/
 
+/bin/
+/.classpath
+/.project
+/.settings/
